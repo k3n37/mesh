@@ -1,4 +1,4 @@
-# distributed-systems-lab
+# mesh
 
 Small, serious experiments for queues, retries, idempotency, and coordination in distributed systems.
 
@@ -8,9 +8,9 @@ Explore the operational behaviors that show up once systems cross process and ne
 
 ## Role in the ecosystem
 
-- Applies theory from `foundations-lab`
-- Supports architecture decisions in `master-platform`
-- Complements `system-design-lab` with runnable code
+- Applies theory from `foundry`
+- Supports architecture decisions in `orbit`
+- Complements `atlas` with runnable code
 
 ## Status
 
@@ -24,7 +24,7 @@ Starter lab with a simple idempotent in-memory queue worker and roadmap for deep
 ## Structure
 
 ```text
-distributed-systems-lab/
+mesh/
 ├── cmd/
 │   └── idempotent-worker/
 │       └── main.go
@@ -45,8 +45,8 @@ go run ./cmd/idempotent-worker
 
 ## Related repositories
 
-- `system-design-lab`
-- `infrastructure-platform`
+- `atlas`
+- `nimbus`
 - `streaming-analytics-engine`
 
 ## Future direction
