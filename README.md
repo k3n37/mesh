@@ -47,7 +47,7 @@ go run ./cmd/idempotent-worker
 
 - `atlas`
 - `nimbus`
-- `streaming-analytics-engine`
+- `pulse`
 
 ## Future direction
 
